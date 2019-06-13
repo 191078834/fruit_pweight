@@ -16,6 +16,7 @@ apt-get install python-sqlalchemy
 # sudo dpkg -i wiringpi-2.46-1.deb
 sudo apt-get install libc6-dbg
 
+开机自启动
 cp pweight.desktop ~/.config/autostart/
 cp start_pweight.sh /usr/bin/
 
@@ -25,4 +26,4 @@ vi /etc/network/interfaces
 service networking restart
 
 ** 需要在/usr/lib/python2.7/dist-packages/里面添加  pweight.pth  内容为 /home/pweight/
-python photo.py -f /home/pweight/conf/pweight.txt
+运行 python photo.py -f /home/pweight/conf/pweight.txt
