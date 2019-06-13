@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=pweight
+Comment=Tis session will start pweight server
+Exec=/usr/bin/start_pweight.sh
+TryExec=/usr/bin/start_pweight.sh
+Type=Application

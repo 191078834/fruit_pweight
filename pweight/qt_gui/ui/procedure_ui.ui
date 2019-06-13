@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Procedure</class>
+ <widget class="QDialog" name="Procedure">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="change_status_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="advertisement_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rec_button">
+   <property name="geometry">
+    <rect>
+     <x>988</x>
+     <y>326</y>
+     <width>820</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(253, 84, 0);
+font: 36pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pra_button">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>326</y>
+     <width>820</width>
+     <height>499</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(253, 84, 0);
+font: 75 36pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="shop_image">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>200</y>
+     <width>1000</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_shop_button">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>290</y>
+     <width>371</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(253, 84, 0);
+font: 75 36pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>切换商品类型</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_choice_button">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>580</y>
+     <width>371</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(253, 84, 0);
+font: 75 36pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>返回识别界面</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="if_success">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>900</y>
+     <width>241</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 60pt &quot;微软雅黑&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

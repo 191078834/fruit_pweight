@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShoppingCart</class>
+ <widget class="QDialog" name="ShoppingCart">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="to_recognition_button">
+   <property name="geometry">
+    <rect>
+     <x>166</x>
+     <y>920</y>
+     <width>677</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="page_last">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>126</y>
+     <width>206</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(23, 73, 255);</string>
+   </property>
+   <property name="text">
+    <string>上一页</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="page_next">
+   <property name="geometry">
+    <rect>
+     <x>738</x>
+     <y>126</y>
+     <width>206</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;微软雅黑&quot;;
+background-color: rgb(23, 73, 255);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>下一页</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_image1">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>247</y>
+     <width>77</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_weight_1">
+   <property name="geometry">
+    <rect>
+     <x>576</x>
+     <y>269</y>
+     <width>83</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 75 17pt &quot;楷体&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ma">
+   <property name="geometry">
+    <rect>
+     <x>972</x>
+     <y>220</y>
+     <width>885</width>
+     <height>684</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_image2">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>386</y>
+     <width>77</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_image3">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>525</y>
+     <width>77</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_image4">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>664</y>
+     <width>77</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_heji">
+   <property name="geometry">
+    <rect>
+     <x>1343</x>
+     <y>394</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 60pt &quot;微软雅黑&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>总价</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_total_price">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>535</y>
+     <width>471</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 108pt &quot;微软雅黑&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>580</y>
+     <width>81</width>
+     <height>76</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 68pt &quot;微软雅黑&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string> ¥</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_image5">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>803</y>
+     <width>77</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wechat_pay_button">
+   <property name="geometry">
+    <rect>
+     <x>1093</x>
+     <y>920</y>
+     <width>640</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 56, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_home">
+   <property name="geometry">
+    <rect>
+     <x>1668</x>
+     <y>13</y>
+     <width>215</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="puchase_logo">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>128</y>
+     <width>58</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_text">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>126</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 48pt &quot;微软雅黑&quot;;
+color: rgb(62, 62, 62);</string>
+   </property>
+   <property name="text">
+    <string>购物车</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selected_button1">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>261</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selected_button2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>400</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selected_button3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>539</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selected_button4">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>678</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selected_button5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>817</y>
+     <width>49</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_name_1">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>250</y>
+     <width>220</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_unit_price_1">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>300</y>
+     <width>150</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+color: rgb(153, 153, 153);
+font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_total_price_1">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>270</y>
+     <width>142</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 28pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_name_2">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>389</y>
+     <width>220</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_name_3">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>528</y>
+     <width>220</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_name_4">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>667</y>
+     <width>220</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_name_5">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>806</y>
+     <width>220</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_unit_price_2">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>439</y>
+     <width>150</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+color: rgb(153, 153, 153);
+font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_unit_price_3">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>578</y>
+     <width>150</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+color: rgb(153, 153, 153);
+font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_unit_price_4">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>717</y>
+     <width>150</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+color: rgb(153, 153, 153);
+font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_unit_price_5">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>856</y>
+     <width>150</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(174, 220, 246);
+color: rgb(153, 153, 153);
+font: 14pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_weight_2">
+   <property name="geometry">
+    <rect>
+     <x>576</x>
+     <y>408</y>
+     <width>83</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 75 17pt &quot;楷体&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_weight_3">
+   <property name="geometry">
+    <rect>
+     <x>576</x>
+     <y>547</y>
+     <width>83</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 75 17pt &quot;楷体&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_weight_4">
+   <property name="geometry">
+    <rect>
+     <x>576</x>
+     <y>686</y>
+     <width>83</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 75 17pt &quot;楷体&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_weight_5">
+   <property name="geometry">
+    <rect>
+     <x>576</x>
+     <y>825</y>
+     <width>83</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 75 17pt &quot;楷体&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_total_price_2">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>406</y>
+     <width>142</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 28pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_total_price_3">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>545</y>
+     <width>142</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 28pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_total_price_4">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>684</y>
+     <width>142</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 28pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fruit_total_price_5">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>823</y>
+     <width>142</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 28pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="coin_1">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>274</y>
+     <width>21</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+</string>
+   </property>
+   <property name="text">
+    <string>¥</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="coin_2">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>410</y>
+     <width>21</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>¥</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="coin_3">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>549</y>
+     <width>21</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>¥</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="coin_4">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>688</y>
+     <width>21</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>¥</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="coin_5">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>827</y>
+     <width>21</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(174, 220, 246);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>¥</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="label_background_1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>222</y>
+     <width>885</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="label_background_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>885</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="label_background_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>498</y>
+     <width>885</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="label_background_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>637</y>
+     <width>885</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="label_background_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>776</y>
+     <width>885</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_background_5</zorder>
+  <zorder>label_background_4</zorder>
+  <zorder>label_background_3</zorder>
+  <zorder>label_background_2</zorder>
+  <zorder>label_background_1</zorder>
+  <zorder>to_recognition_button</zorder>
+  <zorder>page_last</zorder>
+  <zorder>page_next</zorder>
+  <zorder>fruit_image1</zorder>
+  <zorder>fruit_weight_1</zorder>
+  <zorder>label_ma</zorder>
+  <zorder>label_title</zorder>
+  <zorder>fruit_image2</zorder>
+  <zorder>fruit_image3</zorder>
+  <zorder>fruit_image4</zorder>
+  <zorder>label_heji</zorder>
+  <zorder>label_total_price</zorder>
+  <zorder>label_6</zorder>
+  <zorder>fruit_image5</zorder>
+  <zorder>wechat_pay_button</zorder>
+  <zorder>button_home</zorder>
+  <zorder>puchase_logo</zorder>
+  <zorder>label_text</zorder>
+  <zorder>selected_button1</zorder>
+  <zorder>selected_button2</zorder>
+  <zorder>selected_button3</zorder>
+  <zorder>selected_button4</zorder>
+  <zorder>selected_button5</zorder>
+  <zorder>fruit_name_1</zorder>
+  <zorder>fruit_unit_price_1</zorder>
+  <zorder>fruit_total_price_1</zorder>
+  <zorder>fruit_name_2</zorder>
+  <zorder>fruit_name_3</zorder>
+  <zorder>fruit_name_4</zorder>
+  <zorder>fruit_name_5</zorder>
+  <zorder>fruit_unit_price_2</zorder>
+  <zorder>fruit_unit_price_3</zorder>
+  <zorder>fruit_unit_price_4</zorder>
+  <zorder>fruit_unit_price_5</zorder>
+  <zorder>fruit_weight_2</zorder>
+  <zorder>fruit_weight_3</zorder>
+  <zorder>fruit_weight_4</zorder>
+  <zorder>fruit_weight_5</zorder>
+  <zorder>fruit_total_price_2</zorder>
+  <zorder>fruit_total_price_3</zorder>
+  <zorder>fruit_total_price_4</zorder>
+  <zorder>fruit_total_price_5</zorder>
+  <zorder>coin_1</zorder>
+  <zorder>coin_2</zorder>
+  <zorder>coin_3</zorder>
+  <zorder>coin_4</zorder>
+  <zorder>coin_5</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

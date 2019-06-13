@@ -1,0 +1,62 @@
+[default]
+adjust_camera = False
+log_file = /home/pweight/logs/pweight.log
+photos_path = /hoem/pweight/photos
+photo_width = 800
+photo_height = 600
+device_id = 0001
+
+[guide]
+timeout = 10
+
+[unidentified]
+timeout = 10
+
+[recognition_result]
+timeout = 15
+confirmed_info_timeout = 1
+
+[pay]
+timeout  = 60
+delayed_to_guide_timeout = 3
+
+[pay_way]
+timeout   = 5
+
+[static]
+images_path = /home/pweight/pweight/resource/images/
+image_advisediment_name = gao.png
+image_advisediment_name2 = gao2.jpg
+image_guide_name = guide.png
+image_recogniting_name = con_recognition.gif
+image_unidentified_name = unidentified.png
+image_title_name = title.png
+image_home_name = home.png
+image_underline_name = under_line.png
+image_selected_name = selected.png
+image_unselected_name = unselected.png
+image_shopping_cart_logo_name = shopping_cart.png
+image_to_recognition_name = to_recognition.png
+image_wechatpay_name = wechat_pay.png
+image_Alipay_name = alipay.png
+image_wechat_background_name = wechat.png
+image_alipay_background_name = ali.png
+image_success_name = success.png
+image_fail_name = fail.png
+image_blue_back = blue_back.png
+confirm_name = confirm.png
+image_message_name = message.png
+image_logo_name = logo.png
+pra_sys_name = pra_system.png
+rec_sys_name = rec_system.png
+pay_tip_name = pay_tip.png
+
+[db]
+db_path = /home/pweight/pweight/dbs/pweight.sqlite
+
+[cache_fruits_images]
+cache_fruit_images_path = /home/pweight/pweight/resource/cache_fruit_images/
+save_image_base_path = /home/pweight/images/
+
+[size_font]
+size_font_path = /home/pweight/pweight/resource/Microsoft YaHei UI Light.ttf

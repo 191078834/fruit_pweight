@@ -1,0 +1,28 @@
+﻿GPIO   FUNC
+ 12     blue
+ 16     red
+ 18     green
+
+ 8      SCK
+ 10     DT
+
+apt-get update
+apt-get install python-qt4 libqt4-dev
+apt-get install python-opencv
+apt-get install python-serial
+apt-get install python-qrcode
+apt-get install python-sqlalchemy
+# wget https://unicorn.drogon.net/wiringpi-2.46-1.deb
+# sudo dpkg -i wiringpi-2.46-1.deb
+sudo apt-get install libc6-dbg
+
+cp pweight.desktop ~/.config/autostart/
+cp start_pweight.sh /usr/bin/
+
+修改wifi连接信息：
+vi /etc/network/interfaces
+将wpa-ssid和wpa-psk配置成需要连接的wifi后重启网络服务即可
+service networking restart
+
+** 需要在/usr/lib/python2.7/dist-packages/里面添加  pweight.pth  内容为 /home/pweight/
+python photo.py -f /home/pweight/conf/pweight.txt

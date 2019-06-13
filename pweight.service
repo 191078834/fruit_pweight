@@ -1,0 +1,14 @@
+[Unit]
+Description=Friuts Identity Server
+After=network.target auditd.service
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python /usr/lib/python2.7/dist-packages/pweight/photo.py
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target
+Alias=pweight.service

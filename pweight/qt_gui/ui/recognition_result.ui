@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RecognitionResult</class>
+ <widget class="QMainWindow" name="RecognitionResult">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Agency FB</family>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>智能电子称</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="image_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>716</x>
+      <y>223</y>
+      <width>279</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="image_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>579</y>
+      <width>279</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="image_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>579</y>
+      <width>279</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="image_6">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>716</x>
+      <y>579</y>
+      <width>279</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_1_name">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>519</y>
+      <width>279</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 21pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_2_name">
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>519</y>
+      <width>279</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 21pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_3_name">
+    <property name="geometry">
+     <rect>
+      <x>716</x>
+      <y>519</y>
+      <width>279</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 21pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_4_name">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>874</y>
+      <width>279</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 21pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_5_name">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>874</y>
+      <width>279</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 21pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_6_name">
+    <property name="geometry">
+     <rect>
+      <x>716</x>
+      <y>874</y>
+      <width>279</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 21pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="page_last">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>948</y>
+      <width>228</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(23, 73, 255);</string>
+    </property>
+    <property name="text">
+     <string>上一页</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="page_next">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>947</y>
+      <width>228</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(23, 73, 255);</string>
+    </property>
+    <property name="text">
+     <string>下一页</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_home">
+    <property name="geometry">
+     <rect>
+      <x>1668</x>
+      <y>13</y>
+      <width>215</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_notice">
+    <property name="geometry">
+     <rect>
+      <x>62</x>
+      <y>151</y>
+      <width>500</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string>请选择商品种类</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="choice_name">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>151</y>
+      <width>201</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(62, 62, 62);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="image_1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>223</y>
+      <width>279</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="image_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>221</y>
+      <width>279</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background_label">
+    <property name="geometry">
+     <rect>
+      <x>1032</x>
+      <y>219</y>
+      <width>820</width>
+      <height>639</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(174, 220, 246);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weight_text">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>358</y>
+      <width>361</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 60pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>重量(g)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weight">
+    <property name="geometry">
+     <rect>
+      <x>1121</x>
+      <y>500</y>
+      <width>651</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 125pt &quot;微软雅黑&quot;;
+background-color: rgb(174, 220, 246);
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_price_1">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>223</y>
+      <width>160</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 252, 0);
+background-color: rgb(208, 69, 0);
+font: 19pt &quot;微软雅黑&quot;;
+border-bottom-right-radius: 25px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_price_2">
+    <property name="geometry">
+     <rect>
+      <x>387</x>
+      <y>221</y>
+      <width>160</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 252, 0);
+background-color: rgb(208, 69, 0);
+font: 19pt &quot;微软雅黑&quot;;
+border-bottom-right-radius: 25px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_price_3">
+    <property name="geometry">
+     <rect>
+      <x>716</x>
+      <y>223</y>
+      <width>160</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 252, 0);
+background-color: rgb(208, 69, 0);
+font: 19pt &quot;微软雅黑&quot;;
+border-bottom-right-radius: 25px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_price_4">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>579</y>
+      <width>160</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 252, 0);
+background-color: rgb(208, 69, 0);
+font: 19pt &quot;微软雅黑&quot;;
+border-bottom-right-radius: 25px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_price_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>579</y>
+      <width>160</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 252, 0);
+background-color: rgb(208, 69, 0);
+font: 19pt &quot;微软雅黑&quot;;
+border-bottom-right-radius: 25px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="unit_price_6">
+    <property name="geometry">
+     <rect>
+      <x>716</x>
+      <y>579</y>
+      <width>160</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 252, 0);
+background-color: rgb(208, 69, 0);
+font: 19pt &quot;微软雅黑&quot;;
+border-bottom-right-radius: 25px</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MesgBox</class>
+ <widget class="QDialog" name="MesgBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="hide_button">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>775</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 22pt &quot;微软雅黑&quot;;
+background-color: rgb(255, 170, 24);</string>
+   </property>
+   <property name="text">
+    <string>我知道了</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background_img">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background_img</zorder>
+  <zorder>hide_button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
